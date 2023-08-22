@@ -1,4 +1,4 @@
-REPONAME=gfee
+source ../setup/env.sh
 TAG=sqlpad
 
-docker build . -t $REPONAME/$TAG
+docker build . -t $REPO_NAME/$TAG
